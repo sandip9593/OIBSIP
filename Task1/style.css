@@ -1,0 +1,79 @@
+/* OverAll Style bor Whole Body Structure */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: #f4f4f4;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #0077cc;
+  }
+  
+  /*  Header Styling  */
+  header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 2rem;
+    display: flex; 
+    justify-content: space-between; /* Space between title and nav */
+    align-items: center;
+  }
+  
+  header nav a {
+    margin-left: 1rem;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  /* Hero Section Styling */
+  .hero {
+    background: #0077cc;
+    color: #fff;
+    text-align: center;
+    padding: 4rem 2rem;
+  }
+  
+  .button {
+    display: inline-block;
+    margin-top: 1rem;
+    background: #fff;
+    color: #0077cc;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  /* Feature Seaction Styling  */
+  .features {
+    display: flex; /* Arrange items in a row (3 columns) */
+    justify-content: space-around; 
+    padding: 2rem;
+    background: #fff;
+  }
+  
+  .feature-box {
+    width: 30%; /* width  for columns*/
+    padding: 1rem;
+    background: #e6e6e6;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  /* About Section Styling  */
+  .about {
+    padding: 2rem;
+    text-align: center;
+    background: #fdfdfd;
+  }
+  
+  /* Footer Styling  */
+  footer {
+    background: #222;
+    color: #ccc;
+    text-align: center;
+    padding: 2rem;
+  }
+  
